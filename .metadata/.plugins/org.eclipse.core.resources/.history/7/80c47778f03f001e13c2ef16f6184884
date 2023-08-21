@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans>
+	<bean id="studentbean"
+		class="org.springframework.ws.DemoSpringProject.Student">
+		<property name="name" value="Vikash Verma"></property>
+	</bean>
+</beans>

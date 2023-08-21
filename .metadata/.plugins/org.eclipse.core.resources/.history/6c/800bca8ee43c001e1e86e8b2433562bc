@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+class Person{
+	String name;
+	int age;
+	String gender;
+}
+class Teacher extends Person{
+	public void getData() {
+		
+	}
+}
+public class Sample {
+
+	public static void main(String[] args) {
+		Scanner input=new Scanner(System.in);
+		System.out.println("Enter a Number");
+		int a=input.nextInt();
+		System.out.print("Enter a string");
+		String c= input.nextLine();
+		System.out.println(c);
+	}
+
+}

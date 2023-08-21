@@ -1,0 +1,7 @@
+package org.springframework.ws.DemoSpringProject;
+
+public class Student {
+
+	private String name;
+	
+}

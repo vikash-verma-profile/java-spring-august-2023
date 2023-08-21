@@ -1,0 +1,19 @@
+package com.java;
+import java.sql.*;
+
+public class Oracledbconnection {
+
+	public static void main(String[] args) {
+		try {
+			//Step 1 Load the driver
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+			
+			//Step 2 Create the connection 
+			Connection con=DriverManager.getConnection(arg0);
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

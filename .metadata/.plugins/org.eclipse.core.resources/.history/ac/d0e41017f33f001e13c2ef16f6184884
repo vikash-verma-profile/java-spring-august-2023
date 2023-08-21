@@ -1,0 +1,16 @@
+package org.springframework.ws.DemoSpringProject;
+
+import org.springframework.*;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	Resource resource=new ClassPath
+        System.out.println( "Hello World!" );
+    }
+}

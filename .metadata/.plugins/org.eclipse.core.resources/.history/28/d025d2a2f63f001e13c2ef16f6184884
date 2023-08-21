@@ -1,0 +1,18 @@
+package org.springframework.ws.DemoSpringProject;
+
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.BeanFactory;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	Resource resource=new ClassPathResource();
+        System.out.println( "Hello World!" );
+    }
+}
